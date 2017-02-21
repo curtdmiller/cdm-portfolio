@@ -2,3 +2,6 @@
 
 img/
 fonts/
+css/.sass-cache/*
+css/font-awesome.min.css
+*.css.map
