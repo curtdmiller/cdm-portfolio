@@ -1,5 +1,6 @@
 $light-blue: #acd1e9;
 $blaze: #f60;
+$dark-blue: #368ec9;
 
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -30,6 +31,10 @@ header {
     a {
         text-decoration: none;
         color: #fff;
+    }
+    a:hover, a:active, a:focus {
+        text-decoration: none;
+        color: $blaze;
     }
     h5 {
         margin: auto;
@@ -77,40 +82,14 @@ section {
         color: $blaze;
     }
 }
-// section {
-//     width: 100%;
-//     display: inline-block;
-//     float: left;
-//     margin: auto;
-//     border-radius: 10px;
-//     background-color: white;
-//     padding-top: 20px;
-//     margin-top: 20px;
-//
-//     text-align: center;
-//     h4 {
-//         font-weight: lighter;
-//     }
-//     .thumbnail {
-//         width: 100%;
-//         min-height: 180px;
-//         border: solid gray 1px;
-//         border-radius: 5px;
-//         padding: 10px 0 10px 0;
-//         img {
-//             width: 80%;
-//             margin: 0 auto;
-//             // border: solid black 1px;
-//         }
-//     }
-// }
 footer {
     display: block;
+    margin-top: 10px;
     width: 100%;
     text-align: center;
-    color: #777;
-    font-size: .7em;
-    border-top: solid #777 1px;
+    color: white;
+    font-size: .8em;
+    background-color: $dark-blue;
     padding: 10px 0 10px 0;
 }
 

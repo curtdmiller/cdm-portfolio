@@ -6,6 +6,7 @@ header { background-color: #acd1e9; margin-top: 40px; margin-bottom: 40px; }
 header img { max-width: 100px; display: block; margin: auto; }
 header h2 { margin: auto; text-align: center; color: #fff; font-family: 'Montserrat', serif; }
 header a { text-decoration: none; color: #fff; }
+header a:hover, header a:active, header a:focus { text-decoration: none; color: #f60; }
 header h5 { margin: auto; text-align: center; color: #000; margin-bottom: 40px; }
 header nav { width: 100%; }
 header nav ul { list-style: none; width: 100%; margin: auto; padding: 0; text-align: center; }
@@ -19,6 +20,6 @@ section h4 { margin-top: 10px; border-bottom: solid #f60 2px; font-family: 'Mont
 section a { text-decoration: none; color: #f60; }
 section a:hover, section a:active, section a:focus { text-decoration: none; color: #f60; }
 
-footer { display: block; width: 100%; text-align: center; color: #777; font-size: .7em; border-top: solid #777 1px; padding: 10px 0 10px 0; }
+footer { display: block; margin-top: 10px; width: 100%; text-align: center; color: white; font-size: .8em; background-color: #368ec9; padding: 10px 0 10px 0; }
 
 /*# sourceMappingURL=styles.css.map */
