@@ -21,6 +21,13 @@ header {
         max-width: 100px;
         display: block;
         margin: auto;
+        transition: transform 1s;
+        -webkit-transition: transform 1s;
+    }
+    img:hover {
+        transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
     }
     h2 {
         margin: auto;
@@ -31,6 +38,8 @@ header {
     a {
         text-decoration: none;
         color: #fff;
+        transition: color .5s;
+        -webkit-transition: color .5s;
     }
     a:hover, a:active, a:focus {
         text-decoration: none;
@@ -53,14 +62,16 @@ header {
             li {
                 display: inline-block;
             }
-            li a i:nth-child(1) { // fa-circle
+            li a i.fa-circle { // fa-circle
                 color: white;
             }
             li a i:nth-child(2) { // fa-icon
                 color: black;
+                transition: color .5s;
+                -webkit-transition: color .5s;
             }
             li a i:nth-child(2):hover {
-                color: $blaze;
+                color: $light-blue;
             }
         }
     }
@@ -81,6 +92,11 @@ section {
         text-decoration: none;
         color: $blaze;
     }
+    img {
+        opacity: 1;
+        transition: opacity .5s;
+        -webkit-transition: opacity .5s;
+    }
 }
 footer {
     display: block;
@@ -92,7 +108,6 @@ footer {
     background-color: $dark-blue;
     padding: 10px 0 10px 0;
 }
-
 @media only screen and (min-width: 768px) {
 }
 
